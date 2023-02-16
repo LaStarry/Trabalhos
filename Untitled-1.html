@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="Untitled-1.css">
+  
+</head>
+<body>
+  <div class="container">
+    <div class="buttonsForm">
+      <div class="btnCor"></div>
+      <h1> Login </h1>
+      <hr>
+      <body background="https://browsecat.art/sites/default/files/light-purple-background-128260-929394-27668.png"></body>
+    </div>
+
+    <form id="Entrar">
+      <input type="text" id="login" placeholder="Email"/>
+      <hr
+       class="fas fa-envelope iEmail">
+      <input type="password" id="senha" placeholder="Senha"/>
+      <hr
+      class="fas fa-lock iPassword">
+      <div class="divCheck">
+        <button type="button1">
+        <span>Esqueci minha senha</span>
+      </div>
+      
+      <button type="submit">
+          Fazer Login 
+            
+        
+      </button>
+    </form>
+<script>
+    function Logar(){
+      var login = document.getElementById('login').value;
+      var senha = document.getElementById('senha').value;
+        if(login == "freefire123" && senha == "reidaawm"){
+            alert('Sucesso')
+            location.href = "https://hoodshoop.com.br/";
+        } else {
+            alert('Usuário ou Senha incorretos')
+        }
+        }
+      </script>
+</body>
+</html>
